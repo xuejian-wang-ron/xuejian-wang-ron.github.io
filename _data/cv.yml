@@ -1,0 +1,103 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Xuejian Wang (Ron)
+#    - name: Date of Birth
+#      value: 14th March 1879
+#    - name: Languages
+#      value: English, German
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: Purdue University
+      year: 2023-now 
+      description:
+        - Agricultural Economics
+        - Committee:
+          - Joseph Balagtas (Chair), Ezgi Cengiz, Bhagyashree Katare, Guy Tchuente, Steven Wu 
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
+    - title: Master of Science
+      institution: University of Idaho
+      year: 2023
+      description: 
+        - Applied Economics 
+
+    - title: Master of Economics
+      institution: Zhejiang University of Finance and Economics
+      year: 2021
+      description: 
+        - International Trade 
+
+    - title: Bachelor of Economics
+      institution: Yunnan University
+      year: 2017
+      description: 
+        - Economics
+
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Food Economics, Health Economics, Industrial Organization, Food Marketing 
+#      items:
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
+
+
+- title: Propessional Presentations and Conferences
+  contents:
+    - title:  2025 SEA Annual Meeting, Tampa, FL
+    - title:  2025 CES NA Annual Meeting, Ann Arbor, MI
+    - title:  2023 WAEA-CAES Annual Meeting, Whistler, British Columbia, Canada
+    - title:  2022 AAEA Annual Meeting, Anaheim, CA
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - Edward J. and Maud R. Iddings Research Fellowship, $4,000
+    - year: 2022
+      items:
+        - AAEA travel award
+
+- title: Refereeing for Professional Journals
+  type: time_table
+  contents:
+    - items:
+      - Agricultural Economics
+
+
+- title: Research Grants
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - Jim and Neta Hicks Graduate Student Small Grant, $7,500
+        - (My role, writing propsal and making budget)
+
+
+
+- title: Skills
+  type: list
+  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - GIS, Latex, Machine learning, Python, R, Stata
+
+- title: Services
+  type: list
+  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Social chair, Treasurer, Graduate Student Mentor, Graduate Student Organization, 
+      - Department of Agricultural Economics, Purdue University
+    - International Student Ambassador, International Programs Office, University of Idaho
