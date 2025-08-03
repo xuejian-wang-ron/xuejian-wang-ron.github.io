@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ag.purdue.edu/directory/wang6183'>PhD Student</a>. Agricultural Economics at Purdue University 
+subtitle: <a href='https://ag.purdue.edu/directory/wang6183'>PhD Student</a> Agricultural Economics at Purdue University 
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>588 Krannert Building </p>
     <p>403 Mitch Daniels Blvd, </p>
-    <p>est Lafayette, IN, 47907</p>
+    <p>West Lafayette, IN, 47907</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
