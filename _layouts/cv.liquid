@@ -27,6 +27,10 @@ layout: default
     </header>
 
     <article>
+      <!-- 显示页面内容（包括PDF嵌入） -->
+      {{ content }}
+      
+      <!-- 显示CV数据 -->
       <div class="cv">
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
@@ -78,6 +82,10 @@ layout: default
     </header>
 
     <article>
+      <!-- 显示页面内容（包括PDF嵌入） -->
+      {{ content }}
+      
+      <!-- 显示简历数据 -->
       <div class="cv">
         {% for data in site.data.resume %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}

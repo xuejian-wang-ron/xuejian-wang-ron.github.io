@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: cv_july_29.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: 我的学术简历和CV，包含教育背景、研究经历、发表论文等信息
 toc:
   sidebar: left
 ---
