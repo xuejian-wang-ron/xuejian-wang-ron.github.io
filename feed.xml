@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://xuejian-wang-ron.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xuejian-wang-ron.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-20T03:22:31+00:00</updated><id>https://xuejian-wang-ron.github.io/feed.xml</id><title type="html">Xuejian Wang (Ron)</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.</subtitle><entry><title type="html">a post with plotly.js</title><link href="https://xuejian-wang-ron.github.io/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js" /><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://xuejian-wang-ron.github.io/blog/2025/plotly</id><content type="html" xml:base="https://xuejian-wang-ron.github.io/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://xuejian-wang-ron.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xuejian-wang-ron.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-20T03:30:36+00:00</updated><id>https://xuejian-wang-ron.github.io/feed.xml</id><title type="html">Xuejian Wang (Ron)</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.</subtitle><entry><title type="html">a post with plotly.js</title><link href="https://xuejian-wang-ron.github.io/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js" /><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://xuejian-wang-ron.github.io/blog/2025/plotly</id><content type="html" xml:base="https://xuejian-wang-ron.github.io/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p>
 
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
 </span><span class="sb">{
@@ -201,7 +201,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="725afac1-e407-4eb6-8516-e87b96227094" data-name="log">
+<ul id="log" class="tab" data-tab="b5b982f9-72e7-4138-b9aa-3aa5b1f4862a" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -216,7 +216,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="725afac1-e407-4eb6-8516-e87b96227094" data-name="log">
+<ul class="tab-content" id="b5b982f9-72e7-4138-b9aa-3aa5b1f4862a" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -240,7 +240,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="ed437eeb-eafa-4e0c-b783-f513968e74c3" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="bfb0ab68-5a27-4084-ab00-972e98fe69ad" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -251,7 +251,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="ed437eeb-eafa-4e0c-b783-f513968e74c3" data-name="data-struct">
+<ul class="tab-content" id="bfb0ab68-5a27-4084-ab00-972e98fe69ad" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -273,7 +273,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="defee979-e7e3-4782-aa62-dd879ab6d057" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="88509c7e-1df2-4eb9-abc5-5d7a60764f3c" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -288,7 +288,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="defee979-e7e3-4782-aa62-dd879ab6d057" data-name="something-else">
+<ul class="tab-content" id="88509c7e-1df2-4eb9-abc5-5d7a60764f3c" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
