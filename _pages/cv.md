@@ -16,11 +16,11 @@ toc:
 
 <div class="pdf-container mt-4">
   <iframe 
-    src="cv_july_29.pdf#toolbar=1&navpanes=1&scrollbar=1" 
+    src="../cv_july_29.pdf#toolbar=1&navpanes=1&scrollbar=1" 
     width="100%" 
     height="800px" 
     style="border: 1px solid #ddd; border-radius: 8px;"
     title="CV PDF Viewer">
-    <p>您的浏览器不支持PDF查看。请 <a href="cv_july_29.pdf" target="_blank">点击这里下载PDF</a>。</p>
+    <p>您的浏览器不支持PDF查看。请 <a href="../cv_july_29.pdf" target="_blank">点击这里下载PDF</a>。</p>
   </iframe>
 </div>
