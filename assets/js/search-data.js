@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "我的学术简历和CV，包含教育背景、研究经历、发表论文等信息",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
