@@ -218,3 +218,33 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/*****************************
+ * PDF Container styles
+ *****************************/
+
+.pdf-container {
+  margin: 2rem 0;
+  
+  iframe {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    
+    &:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+  }
+  
+  // 响应式设计
+  @media (max-width: 768px) {
+    iframe {
+      height: 600px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    iframe {
+      height: 500px;
+    }
+  }
+}
