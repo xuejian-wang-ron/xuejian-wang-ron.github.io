@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "我的学术简历和CV，包含教育背景、研究经历、发表论文等信息",
+          description: "You may download my CV using the button on the right.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
