@@ -6,8 +6,6 @@ nav: true
 nav_order: 5
 cv_pdf: cv_july_29.pdf # you can also use external links here
 description: You may download my CV using the button on the right.
-toc:
-  sidebar: left
 ---
 
 ## View CV (PDF)
