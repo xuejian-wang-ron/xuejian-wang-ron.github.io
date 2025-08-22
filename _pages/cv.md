@@ -13,7 +13,7 @@ description: You may download my CV using the button on the right.
 
 <div class="pdf-container mt-4">
   <iframe 
-    src="cv_july_29.pdf#toolbar=1&navpanes=1&scrollbar=1" 
+    src="cv_july_29.pdf#toolbar=1&navpanes=0&scrollbar=1&pagemode=none" 
     width="100%" 
     height="800px" 
     style="border: 1px solid #ddd; border-radius: 8px;"
