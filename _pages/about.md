@@ -7,7 +7,7 @@ subtitle: >-
   Economics at Purdue University
 
 profile:
-  align: right
+  align: left
   image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >-
