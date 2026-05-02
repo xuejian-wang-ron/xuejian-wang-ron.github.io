@@ -1,0 +1,19 @@
+/******************************************************************************
+ * About page (homepage): larger body copy; main h1.post-title unchanged
+ ******************************************************************************/
+
+.layout-about-page {
+  .post-header p.desc {
+    font-size: 1.125rem;
+    line-height: 1.55;
+  }
+
+  article {
+    font-size: 1.125rem;
+    line-height: 1.65;
+  }
+
+  .social .contact-note {
+    font-size: 0.95rem;
+  }
+}
