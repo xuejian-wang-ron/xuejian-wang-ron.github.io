@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 2.5rem;
+    gap: 5rem;
   }
 
   // Two-column layout on larger screens: photo left, text right.
@@ -15,7 +15,7 @@
     .about-top {
       flex-direction: row;
       align-items: flex-start;
-      gap: 4rem;
+      gap: 8rem;
     }
 
     .about-profile {
