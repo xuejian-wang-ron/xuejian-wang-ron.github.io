@@ -3,8 +3,39 @@
  ******************************************************************************/
 
 .layout-about-page {
-  .post-header {
-    text-align: right;
+  .about-top {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+  }
+
+  // Two-column layout on larger screens: photo left, text right.
+  @media (min-width: 576px) {
+    .about-top {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+
+    .about-profile {
+      flex: 0 0 260px;
+      max-width: 260px;
+    }
+
+    .about-main {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+  }
+
+  // Profile alignment: keep support for page.profile.align.
+  .about-profile-right {
+    order: 2;
+  }
+
+  .about-profile-left {
+    order: 0;
   }
 
   .post-header p.desc {
