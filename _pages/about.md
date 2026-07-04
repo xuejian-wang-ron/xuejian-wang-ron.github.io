@@ -34,3 +34,5 @@ My work has focused on the food and beverage industries, including fresh food, p
 
 [Google scholar](https://scholar.google.com/citations?user=WzFYCQ0AAAAJ). Email:
 wang6183@purdue.edu, xuejian_wang_ron@outlook.com
+
+<small>[University Directory Profile](https://ag.purdue.edu/pi2/wang6183)</small>
