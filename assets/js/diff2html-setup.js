@@ -4,7 +4,7 @@ let diff2HtmlTheme = determineComputedTheme();
     this is done to enable retrieving the code again when changing theme between light/dark */
 document.addEventListener("readystatechange", () => {
   if (document.readyState === "complete") {
-    document.querySelectorAll("pre>code.language-diff2html").forEach((elem) => {
+    document.querySelectorAll("pre>code.language-diff2html").forEach(elem => {
       const textData = elem.textContent;
       const backup = elem.parentElement;
       backup.classList.add("unloaded");
@@ -12,7 +12,12 @@ document.addEventListener("readystatechange", () => {
       let diffElement = document.createElement("div");
       diffElement.classList.add("diff2html");
       backup.after(diffElement);
-      const configuration = { colorScheme: diff2HtmlTheme, drawFileList: true, highlight: true, matching: "lines" };
+      const configuration = {
+        colorScheme: diff2HtmlTheme,
+        drawFileList: true,
+        highlight: true,
+        matching: "lines",
+      };
       const diff2htmlUi = new Diff2HtmlUI(diffElement, textData, configuration);
       diff2htmlUi.draw();
     });

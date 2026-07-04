@@ -4,7 +4,7 @@ let vegaTheme = determineComputedTheme();
        this is done to enable retrieving the code again when changing theme between light/dark */
 document.addEventListener("readystatechange", () => {
   if (document.readyState === "complete") {
-    document.querySelectorAll("pre>code.language-vega_lite").forEach((elem) => {
+    document.querySelectorAll("pre>code.language-vega_lite").forEach(elem => {
       const jsonData = elem.textContent;
       const backup = elem.parentElement;
       backup.classList.add("unloaded");

@@ -15,7 +15,7 @@ window.MathJax = {
 
 document.addEventListener("readystatechange", () => {
   if (document.readyState === "complete") {
-    document.querySelectorAll("pre>code.language-pseudocode").forEach((elem) => {
+    document.querySelectorAll("pre>code.language-pseudocode").forEach(elem => {
       const texData = elem.textContent;
       const parent = elem.parentElement.parentElement;
       /* create pseudocode node */

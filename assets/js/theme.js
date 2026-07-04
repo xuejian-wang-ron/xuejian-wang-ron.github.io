@@ -13,7 +13,7 @@ let toggleThemeSetting = () => {
 };
 
 // Change the theme setting and apply the theme.
-let setThemeSetting = (themeSetting) => {
+let setThemeSetting = themeSetting => {
   localStorage.setItem("theme", themeSetting);
 
   document.documentElement.setAttribute("data-theme-setting", themeSetting);
@@ -68,9 +68,13 @@ let applyTheme = () => {
   }
 
   // Set jupyter notebooks themes.
-  let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
+  let jupyterNotebooks = document.getElementsByClassName(
+    "jupyter-notebook-iframe-container"
+  );
   for (let i = 0; i < jupyterNotebooks.length; i++) {
-    let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
+    let bodyElement =
+      jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow
+        .document.body;
     if (theme == "dark") {
       bodyElement.setAttribute("data-jp-theme-light", "false");
       bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Dark");
@@ -83,12 +87,15 @@ let applyTheme = () => {
   // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== "undefined") {
     medium_zoom.update({
-      background: getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color") + "ee", // + 'ee' for trasparency.
+      background:
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--global-bg-color"
+        ) + "ee", // + 'ee' for trasparency.
     });
   }
 };
 
-let setHighlight = (theme) => {
+let setHighlight = theme => {
   if (theme == "dark") {
     document.getElementById("highlight_theme_light").media = "none";
     document.getElementById("highlight_theme_dark").media = "";
@@ -98,7 +105,7 @@ let setHighlight = (theme) => {
   }
 };
 
-let setGiscusTheme = (theme) => {
+let setGiscusTheme = theme => {
   function sendMessage(message) {
     const iframe = document.querySelector("iframe.giscus-frame");
     if (!iframe) return;
@@ -126,7 +133,7 @@ let addMermaidZoom = (records, observer) => {
   observer.disconnect();
 };
 
-let setMermaidTheme = (theme) => {
+let setMermaidTheme = theme => {
   if (theme == "light") {
     // light theme name in mermaid is 'default'
     // https://mermaid.js.org/config/theming.html#available-themes
@@ -134,7 +141,7 @@ let setMermaidTheme = (theme) => {
   }
 
   /* Re-render the SVG, based on https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_includes/mermaid.html */
-  document.querySelectorAll(".mermaid").forEach((elem) => {
+  document.querySelectorAll(".mermaid").forEach(elem => {
     // Get the code block content from previous element, since it is the mermaid code itself as defined in Markdown, but it is hidden
     let svgCode = elem.previousSibling.childNodes[0].innerHTML;
     elem.removeAttribute("data-processed");
@@ -152,19 +159,24 @@ let setMermaidTheme = (theme) => {
   }
 };
 
-let setDiff2htmlTheme = (theme) => {
-  document.querySelectorAll(".diff2html").forEach((elem) => {
+let setDiff2htmlTheme = theme => {
+  document.querySelectorAll(".diff2html").forEach(elem => {
     // Get the code block content from previous element, since it is the diff code itself as defined in Markdown, but it is hidden
     let textData = elem.previousSibling.childNodes[0].innerHTML;
     elem.innerHTML = "";
-    const configuration = { colorScheme: theme, drawFileList: true, highlight: true, matching: "lines" };
+    const configuration = {
+      colorScheme: theme,
+      drawFileList: true,
+      highlight: true,
+      matching: "lines",
+    };
     const diff2htmlUi = new Diff2HtmlUI(elem, textData, configuration);
     diff2htmlUi.draw();
   });
 };
 
-let setEchartsTheme = (theme) => {
-  document.querySelectorAll(".echarts").forEach((elem) => {
+let setEchartsTheme = theme => {
+  document.querySelectorAll(".echarts").forEach(elem => {
     // Get the code block content from previous element, since it is the echarts code itself as defined in Markdown, but it is hidden
     let jsonData = elem.previousSibling.childNodes[0].innerHTML;
     echarts.dispose(elem);
@@ -179,8 +191,8 @@ let setEchartsTheme = (theme) => {
   });
 };
 
-let setPlotlyTheme = (theme) => {
-  document.querySelectorAll(".js-plotly-plot").forEach((elem) => {
+let setPlotlyTheme = theme => {
+  document.querySelectorAll(".js-plotly-plot").forEach(elem => {
     // Get the code block content from previous element, since it is the plotly code itself as defined in Markdown, but it is hidden
     let jsonData = JSON.parse(elem.previousSibling.childNodes[0].innerHTML);
 
@@ -192,7 +204,10 @@ let setPlotlyTheme = (theme) => {
       // if jsonData.layout exists, then update the theme
       if (jsonData.layout) {
         if (jsonData.layout.template) {
-          jsonData.layout.template = { ...plotlyDarkLayout, ...jsonData.layout.template };
+          jsonData.layout.template = {
+            ...plotlyDarkLayout,
+            ...jsonData.layout.template,
+          };
         } else {
           jsonData.layout.template = plotlyDarkLayout;
         }
@@ -207,7 +222,10 @@ let setPlotlyTheme = (theme) => {
       // if jsonData.layout exists, then update the theme
       if (jsonData.layout) {
         if (jsonData.layout.template) {
-          jsonData.layout.template = { ...plotlyLightLayout, ...jsonData.layout.template };
+          jsonData.layout.template = {
+            ...plotlyLightLayout,
+            ...jsonData.layout.template,
+          };
         } else {
           jsonData.layout.template = plotlyLightLayout;
         }
@@ -220,8 +238,8 @@ let setPlotlyTheme = (theme) => {
   });
 };
 
-let setVegaLiteTheme = (theme) => {
-  document.querySelectorAll(".vega-lite").forEach((elem) => {
+let setVegaLiteTheme = theme => {
+  document.querySelectorAll(".vega-lite").forEach(elem => {
     // Get the code block content from previous element, since it is the vega lite code itself as defined in Markdown, but it is hidden
     let jsonData = elem.previousSibling.childNodes[0].innerHTML;
     elem.innerHTML = "";
@@ -233,7 +251,7 @@ let setVegaLiteTheme = (theme) => {
   });
 };
 
-let setSearchTheme = (theme) => {
+let setSearchTheme = theme => {
   const ninjaKeys = document.querySelector("ninja-keys");
   if (!ninjaKeys) return;
 
@@ -255,7 +273,11 @@ let transTheme = () => {
 // "system". Default is "system".
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
-  if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
+  if (
+    themeSetting != "dark" &&
+    themeSetting != "light" &&
+    themeSetting != "system"
+  ) {
     themeSetting = "system";
   }
   return themeSetting;
@@ -292,7 +314,9 @@ let initTheme = () => {
   });
 
   // Add event listener to the system theme preference change.
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
-    applyTheme();
-  });
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", ({ matches }) => {
+      applyTheme();
+    });
 };

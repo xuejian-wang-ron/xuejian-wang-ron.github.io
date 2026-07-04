@@ -10,7 +10,6 @@ description: You may download my CV using the button on the right.
 
 ## View CV (PDF)
 
-
 <div class="pdf-container mt-4">
   <iframe 
     src="cv_july_29.pdf#toolbar=1&navpanes=0&scrollbar=1&pagemode=none" 

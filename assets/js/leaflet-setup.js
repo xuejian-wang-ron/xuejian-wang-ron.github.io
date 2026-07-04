@@ -1,7 +1,7 @@
 /* Create leaflet map as another node and hide the code block, appending the leaflet node after it */
 document.addEventListener("readystatechange", () => {
   if (document.readyState === "complete") {
-    document.querySelectorAll("pre>code.language-geojson").forEach((elem) => {
+    document.querySelectorAll("pre>code.language-geojson").forEach(elem => {
       const jsonData = elem.textContent;
       const backup = elem.parentElement;
       backup.classList.add("unloaded");
@@ -13,7 +13,8 @@ document.addEventListener("readystatechange", () => {
       var map = L.map(mapElement);
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        attribution:
+          '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       }).addTo(map);
       let geoJSON = L.geoJSON(JSON.parse(jsonData)).addTo(map);
       map.fitBounds(geoJSON.getBounds());

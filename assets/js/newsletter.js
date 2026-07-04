@@ -12,7 +12,8 @@ function submitHandler(event) {
 
   const rateLimit = () => {
     errorContainer.style.display = "flex";
-    errorMessage.innerText = "Too many signups, please try again in a little while";
+    errorMessage.innerText =
+      "Too many signups, please try again in a little while";
     submitButton.style.display = "none";
     formInput.style.display = "none";
     backButton.style.display = "block";
@@ -42,7 +43,7 @@ function submitHandler(event) {
       "Content-Type": "application/x-www-form-urlencoded",
     },
   })
-    .then((res) => [res.ok, res.json(), res])
+    .then(res => [res.ok, res.json(), res])
     .then(([ok, dataPromise, res]) => {
       if (ok) {
         // If response successful
@@ -52,13 +53,13 @@ function submitHandler(event) {
       } else {
         // If response unsuccessful
         // display error message or response status
-        dataPromise.then((data) => {
+        dataPromise.then(data => {
           errorContainer.style.display = "flex";
           errorMessage.innerText = data.message ? data.message : res.statusText;
         });
       }
     })
-    .catch((error) => {
+    .catch(error => {
       // check for cloudflare error
       if (error.message === "Failed to fetch") {
         rateLimit();
@@ -93,13 +94,21 @@ function resetFormHandler(event) {
   submitButton.style.display = "flex";
 }
 
-var formContainers = document.getElementsByClassName("newsletter-form-container");
+var formContainers = document.getElementsByClassName(
+  "newsletter-form-container"
+);
 
 for (var i = 0; i < formContainers.length; i++) {
   var formContainer = formContainers[i];
-  var handlersAdded = formContainer.classList.contains("newsletter-handlers-added");
+  var handlersAdded = formContainer.classList.contains(
+    "newsletter-handlers-added"
+  );
   if (handlersAdded) continue;
-  formContainer.querySelector(".newsletter-form").addEventListener("submit", submitHandler);
-  formContainer.querySelector(".newsletter-back-button").addEventListener("click", resetFormHandler);
+  formContainer
+    .querySelector(".newsletter-form")
+    .addEventListener("submit", submitHandler);
+  formContainer
+    .querySelector(".newsletter-back-button")
+    .addEventListener("click", resetFormHandler);
   formContainer.classList.add("newsletter-handlers-added");
 }

@@ -39,7 +39,11 @@
  *   highlightSearchTerm({ search: search.value, selector: ".content" });
  * });
  */
-const highlightSearchTerm = ({ search, selector, customHighlightName = "search" }) => {
+const highlightSearchTerm = ({
+  search,
+  selector,
+  customHighlightName = "search",
+}) => {
   if (!selector) {
     throw new Error("The selector argument is required");
   }
@@ -56,9 +60,9 @@ const highlightSearchTerm = ({ search, selector, customHighlightName = "search" 
   const ranges = [];
   const nonMatchingElements = [];
   const elements = document.querySelectorAll(selector);
-  Array.from(elements).map((element) => {
+  Array.from(elements).map(element => {
     let match = false;
-    getTextNodesInElementContainingText(element, search).forEach((node) => {
+    getTextNodesInElementContainingText(element, search).forEach(node => {
       // Modified variant of highlight-search-term
       // We return the non-matching elements in addition.
       const rangesForSearch = getRangesForSearchTermInNode(node, search);

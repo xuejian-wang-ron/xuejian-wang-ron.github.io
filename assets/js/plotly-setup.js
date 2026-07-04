@@ -3,7 +3,7 @@ let plotlyTheme = determineComputedTheme();
        this is done to enable retrieving the code again when changing theme between light/dark */
 document.addEventListener("readystatechange", () => {
   if (document.readyState === "complete") {
-    document.querySelectorAll("pre>code.language-plotly").forEach((elem) => {
+    document.querySelectorAll("pre>code.language-plotly").forEach(elem => {
       const jsonCode = elem.textContent;
       const backup = elem.parentElement;
       backup.classList.add("unloaded");
@@ -22,7 +22,10 @@ document.addEventListener("readystatechange", () => {
         // if jsonData.layout exists, then update the theme
         if (jsonData.layout) {
           if (jsonData.layout.template) {
-            jsonData.layout.template = { ...plotlyDarkLayout, ...jsonData.layout.template };
+            jsonData.layout.template = {
+              ...plotlyDarkLayout,
+              ...jsonData.layout.template,
+            };
           } else {
             jsonData.layout.template = plotlyDarkLayout;
           }
@@ -37,7 +40,10 @@ document.addEventListener("readystatechange", () => {
         // if jsonData.layout exists, then update the theme
         if (jsonData.layout) {
           if (jsonData.layout.template) {
-            jsonData.layout.template = { ...plotlyLightLayout, ...jsonData.layout.template };
+            jsonData.layout.template = {
+              ...plotlyLightLayout,
+              ...jsonData.layout.template,
+            };
           } else {
             jsonData.layout.template = plotlyLightLayout;
           }
