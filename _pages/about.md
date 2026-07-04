@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >-
-  <a href='https://ag.purdue.edu/directory/wang6183'>PhD Student</a> Agricultural
+  <a href='https://ag.purdue.edu/pi2/wang6183'>PhD Student</a> Agricultural
   Economics at Purdue University
 
 profile:
@@ -19,10 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 ---
-
-Website under construction.
-
-
 
 My research focuses on **food economics**, **health economics**, 
 and **industrial organization** in food markets. 
