@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: cv_july_29.pdf # you can also use external links here
+cv_pdf: cv_july26_2026.pdf # you can also use external links here
 description: You may download my CV using the button on the right.
 ---
 
@@ -12,11 +12,11 @@ description: You may download my CV using the button on the right.
 
 <div class="pdf-container mt-4">
   <iframe 
-    src="cv_july_29.pdf#toolbar=1&navpanes=0&scrollbar=1&pagemode=none" 
+    src="cv_july26_2026.pdf#toolbar=1&navpanes=0&scrollbar=1&pagemode=none" 
     width="100%" 
     height="800px" 
     style="border: 1px solid #ddd; border-radius: 8px;"
     title="CV PDF Viewer">
-    <p>Your browser does not support PDF viewing. Please <a href="../cv_july_29.pdf" target="_blank">click here to download the PDF</a>.</p>
+    <p>Your browser does not support PDF viewing. Please <a href="../cv_july26_2026.pdf" target="_blank">click here to download the PDF</a>.</p>
   </iframe>
 </div>
