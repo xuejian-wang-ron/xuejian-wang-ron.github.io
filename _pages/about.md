@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >-
-  <a href='https://ag.purdue.edu/pi2/wang6183'>PhD Student</a> Agricultural
+  <a href='https://ag.purdue.edu/pi2/wang6183'>PhD Candidate</a> Agricultural
   Economics at Purdue University
 
 profile:

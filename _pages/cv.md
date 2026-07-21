@@ -17,6 +17,6 @@ description: You may download my CV using the button on the right.
     height="800px" 
     style="border: 1px solid #ddd; border-radius: 8px;"
     title="CV PDF Viewer">
-    <p>Your browser does not support PDF viewing. Please <a href="../cv_july26_2026.pdf" target="_blank">click here to download the PDF</a>.</p>
+    <p>Your browser does not support PDF viewing. Please <a href="cv_july26_2026.pdf" target="_blank">click here to download the PDF</a>.</p>
   </iframe>
 </div>
