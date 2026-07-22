@@ -3,13 +3,14 @@
 # -----------------------------------------------------------------------------
 
 title: Xuejian Wang (Ron) # the website title (if blank, full name will be used instead)
+title_suffix: Purdue Agricultural Economics # appended to <title> only (SEO/消歧), 不进导航条和引用块
 first_name: Xuejian
 middle_name:
 last_name: Wang (Ron)
 contact_note: >-
   The best way to reach me is by email.
 description: >- # the ">" symbol means to ignore newlines until "footer_text:"
-  Xuejian Wang (Ron) is a PhD student in Agricultural Economics at Purdue
+  Xuejian Wang (Ron) is a PhD candidate in Agricultural Economics at Purdue
   University, working on food economics, health economics, and industrial
   organization in food markets.
 footer_text: >-
