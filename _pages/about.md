@@ -37,21 +37,13 @@ spending falls more than calories: households buy cheaper calories, not fewer.
 The basket shrinks but does not get healthier — fiber, fat, protein, and sodium
 all fall at adoption, while sugar does not. *In preparation.*
 
-The rest of the chain is where my current work is headed. *"The Supply Response to
-Food Quality Concerns: An Application to Synthetic Dyes"* (with Joseph Balagtas)
-asks how food manufacturers respond when demand turns against an ingredient. We
-model firms' reformulation decisions and simulate their strategic responses under
-alternative policy scenarios — the questions that matter here are about policies
-firms have not yet faced, so they turn on how firms *would* react rather than on
-how households already have. A third project, *"GLP-1 Medications and the Derived Demand for Meat"* (with
-Joseph Balagtas), carries the same demand shift further upstream: if households
-change what they eat, the derived demand facing the livestock and protein sectors
-changes with them, and the adjustment is felt at the farm gate.
-
+The rest of the chain is where my current work is headed: how manufacturers
+reformulate when demand turns against an ingredient (synthetic dyes), and how the
+same demand shift reaches the farm gate through derived demand for meat.
 Empirically I work with retail scanner data linked to product-level nutrition
-information, using demand estimation and quasi-experimental designs. I am
-interested in food economics, health economics, and the industrial organization
-of food and agricultural markets.
+information, using demand estimation and quasi-experimental designs, with
+interests in food economics, health economics, and the industrial organization of
+food and agricultural markets.
 
 Email: wang6183@purdue.edu · xuejian_wang_ron@outlook.com
 
