@@ -18,31 +18,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Food policy is usually studied one link at a time — what households buy. But what
-people eat is determined jointly by households, by the firms that make and sell
-food, and by the farms upstream of both. **My research follows that whole chain:
-how households change their food purchases and nutrition when demand shifts, how
-manufacturers and retailers respond through pricing, product mix, and
-reformulation, and how the shift is finally transmitted to derived demand at the
-farm level.** Most evidence stops at the first link; I am building toward work
-that follows it through.
+I study how the whole food supply chain — households, the firms that make and
+sell food, and the farms upstream — shapes what people eat and how healthy it is.
+Most evidence stops at what households buy; my work follows the shift through to
+firms' pricing and reformulation and down to derived demand at the farm gate.
 
-**Job market paper.** *"The Effects of GLP-1 Medications on Household Food
-Demand"* (with Joseph Balagtas) offers some of the first product-level evidence
-on how GLP-1 medications change household food demand. A GLP-1 survey inside the
-NielsenIQ Consumer Panel links each household's adoption to its grocery
-purchases, and harmonized Nutrition Facts data attach calories and nutrients to
-every product. Matched staggered difference-in-differences estimates show that
-spending falls more than calories: households buy cheaper calories, not fewer.
-The basket shrinks but does not get healthier — fiber, fat, protein, and sodium
-all fall at adoption, while sugar does not. *In preparation.*
+**Job market paper:** *"The Effects of GLP-1 Medications on Household Food
+Demand"* (with Joseph Balagtas) — among the first product-level evidence on how
+GLP-1 medications change food demand: households buy cheaper calories, not fewer,
+and the basket shrinks without getting healthier. *In preparation.*
 
-The rest of the chain is where my current work is headed: how manufacturers
-reformulate when demand turns against an ingredient (synthetic dyes), and how the
-same demand shift reaches the farm gate through derived demand for meat.
-Empirically I work with retail scanner data linked to product-level nutrition
-information, using demand estimation and quasi-experimental designs, with
-interests in food economics, health economics, and the industrial organization of
-food and agricultural markets.
+Empirically I work with retail scanner data and product-level nutrition
+information, using demand estimation and quasi-experimental designs, across food
+economics, health economics, and the industrial organization of food and
+agricultural markets.
 
 Email: wang6183@purdue.edu · xuejian_wang_ron@outlook.com
