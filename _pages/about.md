@@ -3,9 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >-
-  <a href='https://ag.purdue.edu/pi2/wang6183'>PhD Candidate</a> in Agricultural
-  Economics, Purdue University &nbsp;·&nbsp; <strong>On the 2026–27 academic job
-  market</strong>
+  PhD Candidate in Agricultural Economics, Purdue University &nbsp;·&nbsp;
+  <strong>On the 2026–27 academic job market</strong>
 
 profile:
   align: left
@@ -19,13 +18,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-What people eat is determined jointly by households, by the firms that make and
-sell food, and by the farms upstream of both. **My research follows that chain:
+Food policy is usually studied one link at a time — what households buy. But what
+people eat is determined jointly by households, by the firms that make and sell
+food, and by the farms upstream of both. **My research follows that whole chain:
 how households change their food purchases and nutrition when demand shifts, how
 manufacturers and retailers respond through pricing, product mix, and
 reformulation, and how the shift is finally transmitted to derived demand at the
-farm level.** Most evidence on food policy stops at the first link; I am building
-toward work that follows it through.
+farm level.** Most evidence stops at the first link; I am building toward work
+that follows it through.
 
 **Job market paper.** *"The Effects of GLP-1 Medications on Household Food
 Demand"* (with Joseph Balagtas) offers some of the first product-level evidence
@@ -46,5 +46,3 @@ interests in food economics, health economics, and the industrial organization o
 food and agricultural markets.
 
 Email: wang6183@purdue.edu · xuejian_wang_ron@outlook.com
-
-<small>[University Directory Profile](https://ag.purdue.edu/pi2/wang6183)</small>
