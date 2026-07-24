@@ -25,8 +25,8 @@ firms' pricing and reformulation and down to derived demand at the farm gate.
 
 **Job market paper:** *"The Effects of GLP-1 Medications on Household Food
 Demand"* (with Joseph Balagtas) — among the first product-level evidence on how
-GLP-1 medications change food demand: households buy cheaper calories, not fewer,
-and the basket shrinks without getting healthier. *In preparation.*
+GLP-1 medications change food demand: spending falls more than
+calories, and the basket shrinks without getting healthier. *In preparation.*
 
 Empirically I work with retail scanner data and product-level nutrition
 information, using demand estimation and quasi-experimental designs, across food
