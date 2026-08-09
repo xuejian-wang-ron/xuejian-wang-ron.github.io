@@ -2,7 +2,8 @@
 layout: page
 permalink: /research/
 title: research
-description: working papers and work in progress, in reversed chronological order.
+description:
+  working papers and work in progress, in reversed chronological order.
 nav: true
 nav_order: 2
 ---
