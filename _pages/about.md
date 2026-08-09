@@ -21,16 +21,15 @@ social: true # includes social icons at the bottom of the page
 I study how the whole food supply chain — households, the firms that make and
 sell food, and the farms upstream — shapes what people eat and how healthy it is.
 Most evidence stops at what households buy; my work follows the shift through to
-firms' pricing and reformulation and down to derived demand at the farm gate.
+firms' pricing and reformulation, and asks what it implies for demand further
+upstream.
 
 **Job market paper:** *"The Effects of GLP-1 Medications on Household Food
 Demand"* (with Joseph Balagtas) — among the first product-level evidence on how
 GLP-1 medications change food demand: spending falls more than
 calories, and the basket shrinks without getting healthier. *In preparation.*
 
-Empirically I work with retail scanner data and product-level nutrition
-information, using demand estimation and quasi-experimental designs, across food
-economics, health economics, and the industrial organization of food and
-agricultural markets.
-
 Email: wang6183@purdue.edu · xuejian_wang_ron@outlook.com
+
+[**Curriculum Vitae (PDF)**]({{ '/cv/cv_web.pdf' | relative_url }}) &nbsp;·&nbsp;
+[view online]({{ '/cv/' | relative_url }})

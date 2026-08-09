@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: cv_july26_2026.pdf # you can also use external links here
+cv_pdf: cv_web.pdf # you can also use external links here
 description: You may download my CV using the button on the right.
 ---
 
