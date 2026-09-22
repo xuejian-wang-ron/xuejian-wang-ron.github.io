@@ -23,10 +23,10 @@ household scanner data at the transaction level, linked to nutrition information
 for the products purchased, I study how large shifts in what people eat change
 the calories and nutrient composition of what households buy.
 
-**Job market paper:** _"The Effects of GLP-1 Medications on Household Food
-Demand"_ (with Joseph Balagtas). We provide evidence on how adoption of GLP-1
-medications changes the calories and key nutrients in household grocery
-purchases. _In preparation._
+**Job market paper:** _"How GLP-1 Medications Are Changing the Caloric and
+Nutritional Content of Household Grocery Purchases"_ (with Joseph Balagtas). We
+provide evidence on how adoption of GLP-1 medications changes the calories and
+key nutrients in household grocery purchases. _In preparation._
 
 Email: wang6183@purdue.edu · xuejian_wang_ron@outlook.com
 
