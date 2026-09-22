@@ -14,7 +14,7 @@ profile:
     <p>588 Krannert Building </p> <p>403 Mitch Daniels Blvd, </p> <p>West
     Lafayette, IN, 47907</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # 2026-09-22 本人拍板:首页不挂 selected publications(理由见 commit)
 social: true # includes social icons at the bottom of the page
 ---
 
