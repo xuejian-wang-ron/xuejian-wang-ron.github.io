@@ -26,7 +26,8 @@ the calories and nutrient composition of what households buy.
 **Job market paper:** _"How GLP-1 Medications Are Changing the Caloric and
 Nutritional Content of Household Grocery Purchases"_ (with Joseph Balagtas). We
 provide evidence on how adoption of GLP-1 medications changes the calories and
-key nutrients in household grocery purchases. _Draft available upon request._
+key nutrients in household grocery purchases.
+[**Latest draft (PDF)**]({{ '/assets/pdf/Wang_JMP.pdf' | relative_url }})
 
 Email: wang6183@purdue.edu · xuejian_wang_ron@outlook.com
 
