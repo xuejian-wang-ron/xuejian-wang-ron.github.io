@@ -18,10 +18,10 @@ selected_papers: false # 2026-09-22 本人拍板:首页不挂 selected publicati
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an applied economist working on demand estimation and agribusiness. Using
-household scanner data at the transaction level, linked to nutrition information
-for the products purchased, I study how large shifts in what people eat change
-the calories and nutrient composition of what households buy.
+I am an applied economist working on consumer demand and agribusiness. I study
+how food demand forms and how it transmits through food supply chains. My focus
+is how health concerns reshape food demand: how households change the calories
+and nutrients they buy, and how food firms formulate and price their products.
 
 **Job market paper:** _"How GLP-1 Medications Are Changing the Caloric and
 Nutritional Content of Household Grocery Purchases"_ (with Joseph Balagtas). We
